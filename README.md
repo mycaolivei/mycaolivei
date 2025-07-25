@@ -19,4 +19,24 @@ Aqui estão algumas das tecnologias e conceitos com os quais tive contato e esto
     * Lógica de Programação
     * Estruturas de Dados
     * Programação Orientada a Objetos (POO)
-    …
+    * Controle de Versão (Git/GitHub)
+
+---
+
+## 📫 Como me Conectar
+
+Ficarei feliz em me conectar com você!
+
+* *LinkedIn:* [Mychaela Oliveira](https://www.linkedin.com/in/mychaela-oliveira-635500195/)
+* *Email:* [olindape5@gmail.com](mailto:olindape5@gmail.com)
+
+
+<p align="center">
+  Obrigado pela visita! Vamos construir algo incrível juntos. 😊
+</p>
+
+### 🐍 Minhas Contribuições Animadas
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/mycaolives/mycaolives/output/dist/github-contribution-grid-snake.svg" alt="snake animation">
+</p>
