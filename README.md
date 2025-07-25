@@ -38,5 +38,5 @@ Ficarei feliz em me conectar com você!
 ### 🐍 Minhas Contribuições Animadas
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/mycaolives/mycaolives/output/dist/github-contribution-grid-snake.svg" alt="snake animation">
+  <img src="https://raw.githubusercontent.com/mycaolives/mycaolivei/output/dist/github-contribution-grid-snake.svg" alt="snake animation">
 </p>
