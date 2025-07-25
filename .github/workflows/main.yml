@@ -1,29 +1,36 @@
+# Nome do seu workflow
 name: Generate Snake Animation
 
 on:
-  schedule:
-    - cron: '0 12 * * *'
   workflow_dispatch:
+  schedule:
+    - cron: "0 */6 * * *" # Atualiza a cada 6 horas
 
 jobs:
   generate:
+    # Adicione esta seção para dar permissão de escrita ao workflow
+    permissions:
+      contents: write
+
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
 
-      - name: Generate snake animation
-        uses: Platane/snk@v3
+      # Passo que gera a animação da snake
+      - uses: Platane/snk@v3
+        id: snake-gif
         with:
           github_user_name: ${{ github.repository_owner }}
+          # REMOVA a linha "token: ${{ secrets.GITHUB_TOKEN }}" se ela existir aqui
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
 
-      - name: Push snake animation
-        uses: crazy-max/ghaction-github-pages@v2
+      # Passo que faz o commit dos arquivos gerados
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v3
         with:
-          target_branch: main
+          target_branch: output # Ramo onde o arquivo será salvo
           build_dir: dist
-          commit_message: "Generate Snake Animation"
-          # Usa o Token que acabamos de criar
-          token: ${{ secrets.PAT }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
