@@ -37,3 +37,7 @@ Ficarei feliz em me conectar com você!
 <p align="center">
   Obrigado pela visita! Vamos construir algo incrível juntos. 😊
 </p>
+### 🐍 Minhas Contribuições Animadas
+<p align="center">
+  <img src="https://raw.githubusercontent.com/https://mycaolivei/main/dist/github-contribution-grid-snake.svg" alt="snake animation">
+</p>
