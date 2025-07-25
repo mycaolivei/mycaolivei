@@ -1,4 +1,4 @@
-# Olá! 👋 Eu sou [Mychaela Oliveira]
+# Olá! 👋 Eu sou Mychaela Oliveira
 
 Sou um **desenvolvedor iniciante** com uma paixão por transformar ideias em código e resolver desafios. Recentemente, concluí meu curso de programação, onde adquiri uma base sólida em **Lógica de Programação**, **Java**, **Python** e **Banco de Dados**.
 
